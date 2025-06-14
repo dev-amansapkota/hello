@@ -1,12 +1,15 @@
-
 import React from "react"
+import Footer from "./components/Footer"
+import NavBar from "./components/Header"
+
 function App() {
  
 
   return (
     <>
     <div>
-      <h1>GharDera</h1>
+      <NavBar />
+      <Footer />
     </div>
      
     </>
